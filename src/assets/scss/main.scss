@@ -1,0 +1,17 @@
+@import "../../..//node_modules/bootstrap/scss/bootstrap.scss";
+@import "./spinner";
+@import "./card";
+
+.post-item-image {
+  width: 320px;
+  height: 200px;
+  overflow: hidden;
+
+  float: left;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
